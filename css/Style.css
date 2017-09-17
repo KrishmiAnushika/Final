@@ -1,0 +1,52 @@
+.black{
+    width: 80px;
+    height: 80px;
+    /*background-color: darkgreen;*/
+    background-image: url("../images/3636da55-68fe-4d2d-89f8-479b55f92a79_400_compressed.jpg");
+}
+.white{
+    width: 80px;
+    height: 80px;
+    box-shadow:inset 0px 0px 60px 2px #8a6d3b;
+    /*background-color: black;*/
+    background-image: url("../images/piso-laminado-clasico-profesional-series-haya-magfall-grd.jpg");
+}
+body{
+    background-image: url("../images/Chess-Pieces-wallpaper.jpg");
+}
+#header{
+    font-size: 100px;
+    text-align: center;
+}
+.teamWhite{
+    height: 65px;
+    width: 65px;
+}
+.teamBlack{
+    height: 65px;
+    width: 65px;
+}
+.boder{
+    background-color: saddlebrown;
+    width: 10px;
+    height: 80px;
+    color: white;
+}
+.boder1{
+    background-color: saddlebrown;
+    width: 87.5px;
+    height: 25px;
+    color: white;
+}
+.white:hover{
+    box-shadow: inset 0px 0px 10px 2px #0000ff;
+}
+.black:hover{
+    box-shadow: inset 0px 0px 10px 2px #0000ff;
+}
+.higlightedBoxes{
+    background:radial-gradient(rgba(0,255,0,1),rgba(0,0,255,0));
+}
+.enemyBoxes{
+    background:radial-gradient(rgba(255,0,0,1),rgba(0,0,255,0));
+}

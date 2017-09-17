@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChessGame</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/Style.css" type="text/css">
+
+</head>
+<body>
+<div>
+	<div id="header">Play</div>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-1 boder1">a</div>
+			<div class="col-md-1 boder1">b</div>
+			<div class="col-md-1 boder1">c</div>
+			<div class="col-md-1 boder1">d</div>
+			<div class="col-md-1 boder1">e</div>
+			<div class="col-md-1 boder1">f</div>
+			<div class="col-md-1 boder1">g</div>
+			<div class="col-md-1 boder1">h</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2 boder">8</div>
+			<div class="col-md-1 black" id="1k1"><img id="brook1" class="teamBlack" src="images/blackRook.png"></div>
+			<div class="col-md-1 white" id="1k2"><img id="bknight1" class="teamBlack" src="images/blackKnight.png"></div>
+			<div class="col-md-1 black" id="1k3"><img id="bbishop1" class="teamBlack" src="images/blackBishop.png"></div>
+			<div class="col-md-1 white" id="1k4"><img id="bqueen" class="teamBlack" src="images/blackQueen.png"></div>
+			<div class="col-md-1 black" id="1k5"><img id="bking" class="teamBlack" src="images/blackKing.png"></div>
+			<div class="col-md-1 white" id="1k6"><img id="bbishop2" class="teamBlack" src="images/blackBishop.png"></div>
+			<div class="col-md-1 black" id="1k7"><img id="bknight2" class="teamBlack" src="images/blackKnight.png"></div>
+			<div class="col-md-1 white" id="1k8"><img id="brook2" class="teamBlack" src="images/blackRook.png"></div>
+			<div class="col-md-2 boder">1</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 boder">7</div>
+			<div class="col-md-1 white" id="2k1"><img id="bpone1" class="teamBlack" src="images/blackpone.png"></div>
+			<div class="col-md-1 black" id="2k2"><img id="bpone2" class="teamBlack" src="images/blackpone.png"></div>
+			<div class="col-md-1 white" id="2k3"><img id="bpone3" class="teamBlack" src="images/blackpone.png"></div>
+			<div class="col-md-1 black" id="2k4"><img id="bpone4" class="teamBlack" src="images/blackpone.png"></div>
+			<div class="col-md-1 white" id="2k5"><img id="bpone5" class="teamBlack" src="images/blackpone.png"></div>
+			<div class="col-md-1 black" id="2k6"><img id="bpone6" class="teamBlack" src="images/blackpone.png"></div>
+			<div class="col-md-1 white" id="2k7"><img id="bpone7" class="teamBlack" src="images/blackpone.png"></div>
+			<div class="col-md-1 black" id="2k8"><img id="bpone8" class="teamBlack" src="images/blackpone.png"></div>
+			<div class="col-md-2 boder">2</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 boder">6</div>
+			<div class="col-md-1 black" id="3k1"></div>
+			<div class="col-md-1 white" id="3k2"></div>
+			<div class="col-md-1 black" id="3k3"></div>
+			<div class="col-md-1 white" id="3k4"></div>
+			<div class="col-md-1 black" id="3k5"></div>
+			<div class="col-md-1 white" id="3k6"></div>
+			<div class="col-md-1 black" id="3k7"></div>
+			<div class="col-md-1 white" id="3k8"></div>
+			<div class="col-md-2 boder">3</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 boder">5</div>
+			<div class="col-md-1 white" id="4k1"></div>
+			<div class="col-md-1 black" id="4k2"></div>
+			<div class="col-md-1 white" id="4k3"></div>
+			<div class="col-md-1 black" id="4k4"></div>
+			<div class="col-md-1 white" id="4k5"></div>
+			<div class="col-md-1 black" id="4k6"></div>
+			<div class="col-md-1 white" id="4k7"></div>
+			<div class="col-md-1 black" id="4k8"></div>
+			<div class="col-md-2 boder">4</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 boder">4</div>
+			<div class="col-md-1 black" id="5k1"></div>
+			<div class="col-md-1 white" id="5k2"></div>
+			<div class="col-md-1 black" id="5k3"></div>
+			<div class="col-md-1 white" id="5k4"></div>
+			<div class="col-md-1 black" id="5k5"></div>
+			<div class="col-md-1 white" id="5k6"></div>
+			<div class="col-md-1 black" id="5k7"></div>
+			<div class="col-md-1 white" id="5k8"></div>
+			<div class="col-md-2 boder">5</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 boder">3</div>
+			<div class="col-md-1 white" id="6k1"></div>
+			<div class="col-md-1 black" id="6k2"></div>
+			<div class="col-md-1 white" id="6k3"></div>
+			<div class="col-md-1 black" id="6k4"></div>
+			<div class="col-md-1 white" id="6k5"></div>
+			<div class="col-md-1 black" id="6k6"></div>
+			<div class="col-md-1 white" id="6k7"></div>
+			<div class="col-md-1 black" id="6k8"></div>
+			<div class="col-md-2 boder">6</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 boder">2</div>
+			<div class="col-md-1 black" id="7k1"><img id="wpone1" class="teamWhite" src="images/whitepone.png"></div>
+			<div class="col-md-1 white" id="7k2"><img id="wpone2" class="teamWhite" src="images/whitepone.png"></div>
+			<div class="col-md-1 black" id="7k3"><img id="wpone3" class="teamWhite" src="images/whitepone.png"></div>
+			<div class="col-md-1 white" id="7k4"><img id="wpone4" class="teamWhite" src="images/whitepone.png"></div>
+			<div class="col-md-1 black" id="7k5"><img id="wpone5" class="teamWhite" src="images/whitepone.png"></div>
+			<div class="col-md-1 white" id="7k6"><img id="wpone6" class="teamWhite" src="images/whitepone.png"></div>
+			<div class="col-md-1 black" id="7k7"><img id="wpone7" class="teamWhite" src="images/whitepone.png"></div>
+			<div class="col-md-1 white" id="7k8"><img id="wpone8" class="teamWhite" src="images/whitepone.png"></div>
+			<div class="col-md-2 boder">7</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 boder">1</div>
+			<div class="col-md-1 white" id="8k1"><img id="wrook1" class="teamWhite" src="images/whiteRook.png"></div>
+			<div class="col-md-1 black" id="8k2"><img id="wknight1" class="teamWhite" src="images/whiteKnight.png"></div>
+			<div class="col-md-1 white" id="8k3"><img id="wbishop1" class="teamWhite" src="images/whiteBishop.png"></div>
+			<div class="col-md-1 black" id="8k4"><img id="wqueen" class="teamWhite" src="images/whiteQueen.png">    </div>
+			<div class="col-md-1 white" id="8k5"><img id="wking" class="teamWhite" src="images/whiteKing.ico"></div>
+			<div class="col-md-1 black" id="8k6"><img id="wbishop2" class="teamWhite" src="images/whiteBishop.png"></div>
+			<div class="col-md-1 white" id="8k7"><img id="wknight2" class="teamWhite" src="images/whiteKnight.png"></div>
+			<div class="col-md-1 black" id="8k8"><img id="wrook2" class="teamWhite" src="images/whiteRook.png"></div>
+			<div class="col-md-2 boder">8</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-1 boder1">a</div>
+			<div class="col-md-1 boder1">b</div>
+			<div class="col-md-1 boder1">c</div>
+			<div class="col-md-1 boder1">d</div>
+			<div class="col-md-1 boder1">e</div>
+			<div class="col-md-1 boder1">f</div>
+			<div class="col-md-1 boder1">g</div>
+			<div class="col-md-1 boder1">h</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript"src="js/jquery.js"></script>
+<script type="text/javascript"src="js/HomeController.js"></script>
+<audio autoplay loop controls id="audio">
+	<source src="audio/">
+</audio>
+</body>
+</html>
